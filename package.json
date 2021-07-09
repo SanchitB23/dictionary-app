@@ -35,7 +35,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "sass": "^1.35.2",
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
     "husky": "6.0 .0",
