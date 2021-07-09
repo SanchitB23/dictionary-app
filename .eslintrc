@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react-hooks"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    // Checks rules of Hooks
+    "react-hooks/rules-of-hooks": "error",
+    // Checks effect dependencies
+    "react-hooks/exhaustive-deps": "warn",
+    "no-warning-comments": "warn",
+    "no-console": "warn",
+    "no-inline-comments": "warn",
+    "multiline-comment-style": "warn",
+    "@typescript-eslint/ban-ts-comment": "warn"
+  }
+}
