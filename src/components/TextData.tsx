@@ -1,11 +1,8 @@
 import React from 'react';
-
-interface TextDataProps {
-    data: {}
-}
+import {TextDataProps} from "../interface";
 
 const TextData: React.FC<TextDataProps> = ({data}) => {
-    console.log(data)
+    console.log(data[0])
     return (
         <React.Fragment>
             Hello

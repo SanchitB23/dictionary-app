@@ -1,11 +1,5 @@
 import React from 'react';
-
-interface SearchBoxInterface {
-    searchText: string,
-    setSearchText: (e: React.ChangeEvent<HTMLInputElement>) => void
-    onSubmit: () => void
-    onReset: () => void
-}
+import {SearchBoxInterface} from "../interface";
 
 const SearchBox: React.FC<SearchBoxInterface> = ({searchText, setSearchText, onSubmit, onReset}) => {
     const onSubmitForm = (e: React.SyntheticEvent) => {
